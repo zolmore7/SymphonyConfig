@@ -1,0 +1,1383 @@
+{
+  "eventMetaData": {
+    "userId": "af53352",
+    "sourceSystemId": "SF",
+    "trackingId": "1000000001",
+    "eventType": "addCustomer",
+    "masterId": "",
+    "subTrackingId": ""
+  },
+  "accountInfo": {
+    "parentInfo": {
+      "ids": [
+        {
+          "system": "SF",
+          "name": "accountID",
+          "value": "0011900000ktHtKAAU"
+        },
+        {
+          "system": "CM",
+          "name": "globalCustomerId",
+          "value": ""
+        },
+        {
+          "system": "WGS",
+          "name": "linkId",
+          "value": ""
+        }
+      ],
+      "demographic": {
+        "organizationName": {
+          "name": "Elite Orthopedics LLC",
+          "dbaName": "Elite Orthopedics LLC"
+        },
+        "contact": {
+          "persons": [
+            {
+              "id": 123456789,
+              "lastName": "Reichle",
+              "firstName": "Susie",
+              "middleName": "",
+              "purpose": "Managing Agent",
+              "organization": "",
+              "title": "MR"
+            }
+          ],
+          "addresses": [
+            {
+              "id": 123456789,
+              "addressSourceId": "Account",
+              "attn": "",
+              "line1": "4362 Creek Road",
+              "line2": "",
+              "city": "Chesterfield",
+              "countyName": "",
+              "stateCode": "MO",
+              "zipCode": "63005",
+              "zipCodePlus": "",
+              "foreignCountryFlg": "",
+              "foreignPostalCode": "",
+              "countryCode": "",
+              "countryName": "United States",
+              "useType": "",
+              "validationFlag": "",
+              "coordinate": {
+                "longitude": "",
+                "latitude": ""
+              },
+              "effectiveDtm": "2020-01-01",
+              "terminateDtm": "9999-12-31"
+            }
+          ],
+          "phones": [
+            {
+              "id": 123456789,
+              "useType": "Billing",
+              "type": "Cell",
+              "value": "6035410001",
+              "authorizeTxtFlg": "",
+              "effectiveDtm": "2020-01-01"
+            }
+          ],
+          "emails": [
+            {
+              "id": 123456789,
+              "useType": "Billing",
+              "value": "testlegato@anthem.com",
+              "effectiveDtm": "2020-01-01"
+            }
+          ]
+        }
+      },
+      "status": {
+        "timeline": {
+          "status": "A",
+          "effectiveDate": "2020-01-01",
+          "reasons": [
+            {
+              "code": "",
+              "description": ""
+            }
+          ]
+        },
+        "customerGroupSetupCompletedCode": "N"
+      },
+      "notes": [
+        {
+          "id": "",
+          "name": "",
+          "value": "",
+          "fromDate": ""
+        }
+      ],
+      "parentConfig": {
+        "legalEntity": {
+          "name": "PR Proprietorship",
+          "taxId": 457899,
+          "effectiveDate": "2020-01-01"
+        },
+        "masterBusinessUnit": {
+          "code": "MO - KYMOZZ-Key BCBSMo (KYMOZZ)",
+          "contractStateCode": "CA",
+          "fundingType": "FI",
+          "effectiveDate": "2020-01-01"
+        },
+        "groupAdmins": [
+          {
+            "sequence": "string",
+            "name": "Susie Reichle",
+            "type": "Managing Agent",
+            "effectiveDate": "2020-01-01",
+            "phone": "2036070564",
+            "phoneType": ""
+          }
+        ],
+        "businessDecisionMakers": [
+          {
+            "sequence": "",
+            "name": "Susie Reichle",
+            "type": "Managing Agent",
+            "effectiveDate": "2020-01-01",
+            "phone": "2036070564",
+            "phoneType": ""
+          }
+        ],
+        "premiumSpecialists": [
+          {
+            "sequence": "",
+            "name": "",
+            "type": "",
+            "effectiveDate": "",
+            "phone": "",
+            "phoneType": ""
+          }
+        ],
+        "thirdPartyAdministrator": {
+          "code": "",
+          "effectiveDate": ""
+        },
+        "membershipLocationCode": "Missouri",
+        "marketSegment": "FALSE",
+        "salesOfficeLocation": {
+          "code": "99",
+          "effectiveDate": "2020-01-01"
+        },
+        "claimVendors": [
+          {
+            "code": "",
+            "effectiveDate": ""
+          },
+          {
+            "code": "",
+            "effectiveDate": ""
+          }
+        ],
+        "renewal": {
+          "nextAnniversaryDate": "2021-01-01",
+          "lastAnniversaryDate": "9999-12-31",
+          "priorAnniversaryDate": "9999-12-31"
+        },
+        "representative": {
+          "personRepresentedBySegment": "",
+          "internalSalesRepresentative": {
+            "employeeName": "",
+            "salesType": "SR",
+            "representativeNumber": "8146",
+            "firstName": "Jolene",
+            "lastName": "Harding",
+            "splitPercent": "100",
+            "effectiveDate": "2020-01-01",
+            "endDate": "9999-12-31"
+          }
+        },
+        "accountAdmin": {
+          "adminName": "Susie Reichle"
+        },
+        "underWriting": {
+          "underWriter": "Christina Jaegers",
+          "uwWorkMonth": 1
+        }
+      }
+    },
+    "customerInfo": {
+      "customers": [
+        {
+          "ids": [
+            {
+              "system": "CM",
+              "name": "customerId",
+              "value": "",
+              "Indicator": "N"
+            },
+            {
+              "system": "WGS",
+              "name": "caseId",
+              "value": "",
+              "Indicator": "N"
+            },
+            {
+              "system": "CM",
+              "name": "globalCustomerId",
+              "value": "",
+              "Indicator": "N"
+            },
+            {
+              "system": "WGS",
+              "name": "prefixAccountId",
+              "value": "",
+              "Indicator": "Y"
+            }
+          ],
+          "demographic": {
+            "organizationName": {
+              "name": "Elite Orthopedics LLC",
+              "dbaName": "Elite Orthopedics LLC"
+            },
+            "contact": {
+              "persons": [
+                {
+                  "id": 123456789,
+                  "lastName": "Reichle",
+                  "firstName": "Susie",
+                  "middleName": "",
+                  "purpose": "Managing Agent",
+                  "organization": "",
+                  "title": "MR"
+                }
+              ],
+              "addresses": [
+                {
+                  "id": 123456789,
+                  "addressSourceId": "Account",
+                  "attn": "",
+                  "line1": "4362 Creek Road",
+                  "line2": "",
+                  "city": "Chesterfield",
+                  "countyName": "",
+                  "stateCode": "MO",
+                  "zipCode": "63005",
+                  "zipCodePlus": "",
+                  "foreignCountryFlg": "",
+                  "foreignPostalCode": "",
+                  "countryCode": "",
+                  "countryName": "United States",
+                  "useType": "",
+                  "validationFlag": "",
+                  "coordinate": {
+                    "longitude": "",
+                    "latitude": ""
+                  },
+                  "effectiveDtm": "2020-01-01",
+                  "terminateDtm": "9999-12-31"
+                }
+              ],
+              "phones": [
+                {
+                  "id": 123456789,
+                  "useType": "Billing",
+                  "type": "Cell",
+                  "value": "6035410001",
+                  "authorizeTxtFlg": "sample",
+                  "effectiveDtm": "2020-01-01"
+                }
+              ],
+              "emails": [
+                {
+                  "id": 123456789,
+                  "useType": "Billing",
+                  "value": "testlegato.anthem.com",
+                  "effectiveDtm": "2020-01-01"
+                }
+              ]
+            }
+          },
+          "status": {
+            "timeline": {
+              "status": "A",
+              "effectiveDate": "9999-12-31",
+              "endDate": "9999-12-31",
+              "reasons": [
+                {
+                  "code": "",
+                  "description": ""
+                }
+              ]
+            },
+            "customerGroupSetupCompletedCode": "N"
+          },
+          "products": [
+            {
+              "contractId": "3WAU",
+              "networkName": "Blue Priority",
+              "networkId": "",
+              "type": "",
+              "name": "PPO Blue Preferred",
+              "category": "Product",
+              "stateCode": "CA",
+              "fundingType": "FI",
+              "healthPlanContractCode": "3WAU",
+              "consumerDrivenHealthPlanProductType": "",
+              "memberProductCode": "",
+              "benefitYearOrCalendarYearCode": "Calendar Year",
+              "effectiveDate": "2020-01-01",
+              "expirationDate": "9999-12-31",
+              "chartFields": {
+                "product": "",
+                "network": "",
+                "chartCompanyCode": "",
+                "chartMBU": "",
+                "chartFundingType": "",
+                "chartProductCode": ""
+              },
+              "rates": [
+                {
+                  "id": "R123",
+                  "employmentCategoryCode": "",
+                  "employmentClass": "",
+                  "effectiveDate": "2020-01-01",
+                  "expirationDate": "9999-12-31"
+                }
+              ],
+              "brokers": [
+                {
+                  "writingAgentTaxIdentificationNumber": 4343434,
+                  "parentTaxIdentificationNumber": 0,
+                  "agentCode": "",
+                  "brokerInformation": {
+                    "brokerName": {
+                      "lastName": "",
+                      "firstName": "",
+                      "middleName": ""
+                    },
+                    "type": "",
+                    "brokerAgencyName": "Towers Perrin",
+                    "phone": "",
+                    "addresses": {
+                      "attn": "",
+                      "line1": "",
+                      "line2": "",
+                      "city": "",
+                      "stateCode": "",
+                      "county": "",
+                      "foreignCountryFlg": "",
+                      "foreignPostalCode": "",
+                      "countryCode": "",
+                      "countryName": "",
+                      "useType": "",
+                      "effectiveDtm": "2020-01-01",
+                      "terminateDtm": "9999-12-31",
+                      "zipCode": "",
+                      "zipCodePlus": "",
+                      "coordinate": {
+                        "longitude": "",
+                        "latitude": ""
+                      }
+                    },
+                    "email": "",
+                    "contactType": "Location Contact",
+                    "generalAgent": "N",
+                    "overrideApi": "N",
+                    "percent": 20,
+                    "effectiveDate": "2020-01-01",
+                    "expirationDate": "9999-12-31"
+                  }
+                }
+              ],
+              "networkType": "",
+              "productId": 0,
+              "productConfig": {
+                "customerClass": "",
+                "division": "",
+                "workLocation": "",
+                "groupTapeEnrollment": "",
+                "occuranceCode": "",
+                "minAmnt": "",
+                "payType": "Wire Transfer",
+                "employerIdNumber": "457899",
+                "etIndicator": "",
+                "byCy": "Calendar Year",
+                "bycyAsofDt": "2020-01-01",
+                "mbrSalary": "",
+                "mhsOptOutIndicator": "",
+                "mhSaSvcLevelIndicator": "",
+                "hsaQualIndicator": "",
+                "domesticPartnerIndicator": "",
+                "alternateNetworkIndicator": "",
+                "contact": "",
+                "employeeAssistanceProgram": "",
+                "eligibility": {
+                  "employerSubscriberPercent": 22,
+                  "employerDependentPercent": 23,
+                  "newHiresCode": "15 Days",
+                  "probationPeriodCode": 1,
+                  "deleteDependentCode": "26",
+                  "overSixtyFiveCode": 2,
+                  "openEnrollmentCode": "2020-01-01",
+                  "healthStatementCode": "",
+                  "groupType": "",
+                  "rerateMonth": 12,
+                  "companySizeCategoryCode": "99",
+                  "duplicateCoverageSupplemental": "",
+                  "vendorReferral": "",
+                  "handWPairedGroupAndEffectiveDate": "9999-12-31",
+                  "retroDaysCodeOlGt": "",
+                  "preferredDrugCode": "N",
+                  "eligibilityCode": "0",
+                  "calendarOrBenefitYearCode": "Calendar Year",
+                  "domesticPartnerCode": "",
+                  "overageMailing": "Yes",
+                  "oadAutoDelete": "",
+                  "addReasonCode": "",
+                  "employeeExcludedCode": "1",
+                  "eocIndicator": ""
+                },
+                "rates": {
+                  "washOut": "16",
+                  "effectiveDate": "2020-01-01",
+                  "termDate": "9999-12-31",
+                  "contCode": "3WAU",
+                  "procId": "af53352",
+                  "procDate": "2019-08-20",
+                  "billFrequency": "1 MONTHLY",
+                  "sign": "",
+                  "renFact": "",
+                  "liferateTypes": "",
+                  "ageBreak": "",
+                  "lsps": "",
+                  "lchd": "",
+                  "productFamily": "",
+                  "rateDivisor": "",
+                  "ldep": "",
+                  "rateDescriptor": "B",
+                  "sharedKey": "",
+                  "geoKey": "",
+                  "geoType": "",
+                  "rateGuarantee": "",
+                  "rateGuaranteeEndDate": "",
+                  "rateTypeDescriptionsLocCodeDescription": "",
+                  "locCode": "",
+                  "rateAmount": "",
+                  "mscItm": "",
+                  "rateType": "",
+                  "blueCardExtraTerritorialIndicator": "",
+                  "blueCardExtraTerritorialIndicatorEffectiveDate": "9999-12-31"
+                },
+                "network": {
+                  "networkId": "Blue Preferred"
+                },
+                "indicators": {
+                  "womensContraceptiveExemptionInd": "",
+                  "lho": "",
+                  "caqhCobIndicator": "",
+                  "fundingOffIndicator": "N"
+                },
+                "idCard": {
+                  "sequence": "",
+                  "idDistributionInitialIndicator": "",
+                  "nonHmoIdCardsIndicator": "",
+                  "idDistributionOngoing": "",
+                  "idDesignCode": "",
+                  "trigger": "",
+                  "stickerIndicator": ""
+                },
+                "exempt": {
+                  "type": "",
+                  "typeEffectiveDate": "",
+                  "typeTermDate": "9999-12-31"
+                },
+                "location": {
+                  "lobCode": "5"
+                },
+                "process": {
+                  "groupProcessCode": "",
+                  "groupTapeEnrollment": "N",
+                  "batchStream": "A"
+                },
+                "rateMethod": {
+                  "code": "F",
+                  "codeEffectiveDate": "2020-01-01"
+                },
+                "rep": [
+                  {
+                    "adminName": "Heidi Jordan"
+                  }
+                ],
+                "nationalEligibility": {
+                  "primaryNetwork": "",
+                  "primaryNetworkEffectiveDate": "2019-08-20",
+                  "primaryNetworkTermDate": "9999-12-31"
+                },
+                "other": {
+                  "name": "Elite Orthopedics LLC",
+                  "customerGroupId": "GA2023",
+                  "status": "A",
+                  "originalEffectiveDate": "2020-01-01",
+                  "standardIndustryClassification": "3552",
+                  "addProcessDate": "2019-08-20",
+                  "paidToDate": "9999-12-31",
+                  "groupId": "",
+                  "reinstateEffectiveDate": "9999-12-31",
+                  "reinstateProcessDate": "9999-12-31",
+                  "cancelEffectiveDate": "9999-12-31",
+                  "cancelProcessDate": "9999-12-31",
+                  "cancelReason": "",
+                  "processOrPhone": "",
+                  "oadPairedGroup": "",
+                  "oadPairedGroupEffectiveDate": "9999-12-31",
+                  "oadPairedGroupEndDate": "9999-12-31",
+                  "promptPayIndicator": "",
+                  "promptPayEffectiveDate": "9999-12-31",
+                  "companyCode": "",
+                  "companyCodeEffectiveDate": "9999-12-31",
+                  "locationStateCode": "CA",
+                  "locationStateCodeEffectiveDate": "9999-12-31",
+                  "preferredDrugCodeEffectiveDate": "9999-12-31",
+                  "eligibilityCodeEffectiveDate": "9999-12-31",
+                  "billingChargeCode": "00",
+                  "contactName": "Henry Adams",
+                  "address1": "1155 Elm Street",
+                  "address2": "",
+                  "phone": "6035410001",
+                  "ext": "",
+                  "city": "Manchester",
+                  "state": "New Hampshire",
+                  "zip": "3101",
+                  "healthWellnessIndicator": "",
+                  "privateExchangeIndicator": "",
+                  "attestationIndicator": "",
+                  "autoPicIndicatorForVivity": "",
+                  "hsaFamilySingleIndicator": "",
+                  "groupLetterOptOut": "",
+                  "case": "",
+                  "medicareRate": "N",
+                  "billEnityName": "BILL-000058",
+                  "effectiveDate": "2020-01-01",
+                  "termDate": "9999-12-31",
+                  "hallmarkGiftCardBillIndicator": "",
+                  "hcbcLastProcessDate": "9999-12-31",
+                  "addressType": ""
+                },
+                "otherNonStandard": {
+                  "ecceccVendor": "",
+                  "agedBlindAndDisabled": "",
+                  "groupCategoryType": "",
+                  "letterSuppression": "No",
+                  "billingPairedGroups": "",
+                  "transitionIndicator": "",
+                  "pediatricHealthPlan": "",
+                  "combinedBillingIndicator": "",
+                  "maxAge": "Birthday",
+                  "classificationCode": "",
+                  "multipleCode": "",
+                  "differentialAmount": "",
+                  "roundingCode": "",
+                  "salaryFrequencyClassLocGiovrIndGiovDateCalculationType": "",
+                  "codeId": "",
+                  "birthDateCompMonth": "",
+                  "spsCutback": "",
+                  "roundingAfterCutback": "",
+                  "age": "",
+                  "pctPercent": "",
+                  "fromBaseCode": "",
+                  "occuranceCode": "",
+                  "minAmount": "",
+                  "vendorIndicator": "",
+                  "effectiveDate": "9999-12-31",
+                  "endDate": "9999-12-31",
+                  "vendorData1": "",
+                  "vendorData2": "",
+                  "vendorData3": "",
+                  "vendorData4": "",
+                  "note": "",
+                  "userId": "",
+                  "pcpChanges": "",
+                  "pcpAddressChange": "",
+                  "aidCategoryChange": "",
+                  "contractCodeChanges": "",
+                  "groupToGroupTransfer": "",
+                  "reEnrolled": "",
+                  "reinstated": "",
+                  "gapInCoverageForNmk": "",
+                  "jkContractSubscriber": "",
+                  "coccLetterSuppression": "",
+                  "conversionLetterSuppression": "",
+                  "terminationLetterSuppression": "",
+                  "lastProcessDate": "9999-12-31",
+                  "countyCodeChanges": ""
+                },
+                "adminName": "Heidi Jordan",
+                "rdsGroupAttestationIndicator": "N",
+                "claim": {
+                  "route": "890890",
+                  "graceDays": "60",
+                  "claimGraceDays": "60"
+                },
+                "itsHome": {
+                  "indicator": "C",
+                  "effectiveDate": "2020-01-01",
+                  "prefix": ""
+                }
+              },
+              "productQuestion": {
+                "networkType": "Blue Preferred",
+                "planName": "PPO Blue Preferred",
+                "planEffectiveDate": "2020-01-01",
+                "exchangeAcaIndicatior": "Y",
+                "sizeBand": 99,
+                "planFundingType": "FI",
+                "hsaHraBankingType": "",
+                "cobraIndicator": "Y",
+                "extendedCobraIndicator": "Y",
+                "retireeIndicator": "N"
+              },
+              "productClasses": [
+                {
+                  "employmentClass": "hourly"
+                }
+              ]
+            }
+          ],
+          "customerConfig": {
+            "legalEntity": {
+              "name": "PR ",
+              "taxId": 457899,
+              "effectiveDate": "9999-12-31"
+            },
+            "masterBusinessUnit": {
+              "code": "663X",
+              "contractStateCode": "CA",
+              "effectiveDate": "2020-01-01",
+              "fundingType": "FI"
+            },
+            "thirdPartyAdministrator": {
+              "code": "",
+              "effectiveDate": ""
+            },
+            "census": {
+              "numberofEligibleEmployees": "",
+              "participationRequirementsForEmployee": "9999-12-31",
+              "participationRequirementsForDependent": "9999-12-31",
+              "medlock": ""
+            },
+            "dds": {
+              "performanceGuaranteeClaimsTAT": "",
+              "blockRated": "9999-12-31",
+              "marketingContact": "",
+              "association": "",
+              "exchangeName": "",
+              "contactType": ""
+            },
+            "life&Disability": {
+              "srqQuoteID": "",
+              "priorEmployerWaitingPeriod": "",
+              "waitType": "",
+              "priorEmployDateADJRule": "",
+              "subsWaitPer": "",
+              "subsEmployWaitType": "",
+              "subEmployDateADJRule": ""
+            },
+            "conversion": {
+              "code": "0",
+              "effectiveDate": "DD 9999-12-31"
+            },
+            "compliance": {
+              "federalDisclosureDate": "DD 9999-12-31",
+              "hipaaLetterExclude": "N",
+              "effectiveDate": "9999-12-31"
+            },
+            "membershipLocationCode": "CA",
+            "marketSegment": "FALSE",
+            "salesOfficeLocation": {
+              "code": "99",
+              "effectiveDate": "2020-01-01"
+            },
+            "enrollment": {
+              "retro": {
+                "daysOL": 60,
+                "daysGT": 60
+              },
+              "oadRiderCode": "",
+              "fullDepEligibilityFlag": "",
+              "hcidEnrollCode": "N",
+              "effectiveDate": "9999-12-31"
+            },
+            "idCard": {
+              "nonHmoldCards": "",
+              "idCardCompanyLogo": "",
+              "genIdCardIndicator": "",
+              "effectiveDate": "9999-12-31"
+            },
+            "claim": {
+              "paperlessEobExcl": "",
+              "claimReporting": "",
+              "runInClaims": "",
+              "claimCategories": "",
+              "runOutClaims": "",
+              "claimFundingOff": "",
+              "flexBenefit": {
+                "effectiveDate": "9999-12-31"
+              },
+              "minimumPremiumPlan": {
+                "mppInsuranceRunout": "",
+                "termReservelessMppCheckStock": ""
+              },
+              "nationalCareNetwork": {
+                "referralIndicator": "",
+                "referralEffectiveDate": "2020-01-01"
+              },
+              "claimVendors": [
+                {
+                  "code": "",
+                  "effectiveDate": "9999-12-31"
+                },
+                {
+                  "code": "",
+                  "effectiveDate": "9999-12-31"
+                }
+              ],
+              "councilOfAffordableQualityHealthPlan": {
+                "caq": "",
+                "caqAddScreen": ""
+              }
+            },
+            "cobra": {
+              "adminServicesFlag": "",
+              "erisaFlag": "ERISA"
+            },
+            "reference": {
+              "ref1": "",
+              "ref2": "",
+              "ref3": ""
+            },
+            "finance": {
+              "masterBusinessUnit": {
+                "code": "CA-EDCAMC",
+                "effectiveDate": "2020-01-01"
+              },
+              "overPaymentService": "X"
+            },
+            "renewal": {
+              "nextAnniversaryDate": "2020-09-01",
+              "lastAnniversaryDate": "9999-12-31",
+              "priorAnniversaryDate": "9999-12-31"
+            },
+            "representative": {
+              "personRepresentedBySegment": "1 LAST NAME",
+              "internalSalesRepresentative": {
+                "employeeName": "Heidi Jordan",
+                "salesType": "",
+                "representativeNumber": "",
+                "firstName": "Margaret",
+                "lastName": "White",
+                "splitPercent": "100",
+                "effectiveDate": "2020-01-01",
+                "endDate": "9999-12-31"
+              }
+            },
+            "accountAdmin": {
+              "adminName": "Dana Brooks"
+            },
+            "report": {
+              "customKeyAccess": 0
+            },
+            "underWriting": {
+              "underWriter": "",
+              "uwWorkMonth": 1,
+              "focalRenewalDate": "9999-12-31"
+            }
+          },
+          "notes": [
+            {
+              "id": "",
+              "name": "",
+              "value": "",
+              "fromDate": "9999-12-31"
+            }
+          ],
+          "opportunities": [
+            {
+              "opportunityId": "2019 New Business",
+              "sqrQuoteId": "00320246",
+              "effectiveDate": "2020-01-01",
+              "expirationDate": "9999-12-31"
+            }
+          ],
+          "requestedClasses": [
+            {
+              "employmentClass": "hourly",
+              "productCategory": "medical",
+              "employeeType": "active"
+            }
+          ],
+          "groups": [
+            {
+              "ids": [
+                {
+                  "system": "CM",
+                  "name": "globalCustomerId",
+                  "value": ""
+                },
+                {
+                  "system": "CM",
+                  "name": "customerId",
+                  "value": ""
+                },
+                {
+                  "system": "CM",
+                  "name": "groupId",
+                  "value": ""
+                }
+              ],
+              "subGroups": [
+                {
+                  "groupNumber": "",
+                  "employmentCategoryCode": "",
+                  "employmentClass": "",
+                  "contractId": "",
+                  "productType": "",
+                  "memberProductCode": "",
+                  "groupSuffixId": ""
+                }
+              ],
+              "groupProductRating": [
+                {
+                  "groupPlanid": "",
+                  "groupNumber": "",
+                  "contractId": "",
+                  "productType": "",
+                  "rateId": "",
+                  "employmentCategoryCode": "",
+                  "employmentClass": "",
+                  "effectiveDate": "9999-12-31",
+                  "expirationDate": "9999-12-31"
+                }
+              ],
+              "demographic": {
+                "organizationName": {
+                  "name": "",
+                  "dbaName": ""
+                },
+                "contact": {
+                  "persons": [
+                    {
+                      "id": "",
+                      "lastName": "",
+                      "firstName": "",
+                      "middleName": "",
+                      "purpose": "",
+                      "organization": "",
+                      "title": ""
+                    }
+                  ],
+                  "addresses": [
+                    {
+                      "id": "",
+                      "addressSourceId": "",
+                      "attn": "",
+                      "line1": "",
+                      "line2": "",
+                      "city": "",
+                      "countyName": "",
+                      "stateCode": "",
+                      "zipCode": "",
+                      "zipCodePlus": "",
+                      "foreignCountryFlg": "",
+                      "foreignPostalCode": "",
+                      "countryCode": "",
+                      "countryName": "",
+                      "useType": "",
+                      "validationFlag": "",
+                      "coordinate": {
+                        "longitude": "",
+                        "latitude": ""
+                      },
+                      "effectiveDtm": "9999-12-31",
+                      "terminateDtm": "9999-12-31"
+                    }
+                  ],
+                  "phones": [
+                    {
+                      "id": "",
+                      "useType": "",
+                      "type": "",
+                      "value": "",
+                      "authorizeTxtFlg": "",
+                      "effectiveDtm": "9999-12-31"
+                    }
+                  ],
+                  "emails": [
+                    {
+                      "id": "",
+                      "useType": "",
+                      "value": "",
+                      "effectiveDtm": "9999-12-31"
+                    }
+                  ]
+                }
+              },
+              "status": {
+                "timeline": {
+                  "status": "",
+                  "effectiveStartDate": "9999-12-31",
+                  "effectiveEndDate": "9999-12-31"
+                },
+                "reasons": [
+                  {
+                    "code": "",
+                    "description": ""
+                  }
+                ]
+              },
+              "groupConfig": {
+                "customerClass": "",
+                "division": "",
+                "workLocation": "",
+                "groupTapeEnrollment": "",
+                "occuranceCode": "",
+                "minAmnt": "",
+                "payType": "",
+                "employerIdNumber": "",
+                "etIndicator": "",
+                "byCy": "",
+                "bycyAsofDt": "",
+                "mbrSalary": "",
+                "mhsOptOutIndicator": "",
+                "mhSaSvcLevelIndicator": "",
+                "hsaQualIndicator": "",
+                "domesticPartnerIndicator": "",
+                "alternateNetworkIndicator": "",
+                "contact": "",
+                "employeeAssistanceProgram": "",
+                "eligibility": {
+                  "employerSubscriberPercent": 0,
+                  "employerDependentPercent": 0,
+                  "employeeExcludedCode": "",
+                  "newHiresCode": "",
+                  "probationPeriodCode": 0,
+                  "deleteDependentCode": "",
+                  "overSixtyFiveCode": 0,
+                  "openEnrollmentCode": "",
+                  "healthStatementCode": "",
+                  "groupType": "",
+                  "rerateMonth": 0,
+                  "companySizeCategoryCode": "s",
+                  "duplicateCoverageSupplemental": "s",
+                  "vendorReferral": "s",
+                  "handWPairedGroupAndEffectiveDate": "9999-12-31",
+                  "retroDaysCodeOlGt": "sample",
+                  "preferredDrugCode": "",
+                  "eligibilityCode": "",
+                  "calendarOrBenefitYearCode": "",
+                  "domesticPartnerCode": "",
+                  "overageMailing": "",
+                  "oadAutoDelete": "",
+                  "addReasonCode": ""
+                },
+                "rates": {
+                  "washOut": "",
+                  "effectiveDate": "9999-12-31",
+                  "termDate": "9999-12-31",
+                  "contCode": "",
+                  "procId": "",
+                  "procDate": "9999-12-31",
+                  "billFrequency": "",
+                  "sign": "",
+                  "renFact": "",
+                  "liferateTypes": "",
+                  "ageBreak": "",
+                  "lsps": "",
+                  "lchd": "",
+                  "productFamily": "",
+                  "rateDivisor": "",
+                  "ldep": "",
+                  "rateDescriptor": "",
+                  "sharedKey": "",
+                  "geoKey": "",
+                  "geoType": "",
+                  "rateGuarantee": "",
+                  "rateGuaranteeEndDate": "9999-12-31",
+                  "rateTypeDescriptionsLocCodeDescription": "",
+                  "locCode": "",
+                  "rateAmount": "",
+                  "mscItm": "",
+                  "rateType": "",
+                  "blueCardExtraTerritorialIndicator": "",
+                  "blueCardExtraTerritorialIndicatorEffectiveDate": ""
+                },
+                "network": {
+                  "networkId": ""
+                },
+                "indicators": {
+                  "womensContraceptiveExemptionInd": "",
+                  "lho": "",
+                  "caqhCobIndicator": "",
+                  "fundingOffIndicator": ""
+                },
+                "idCard": {
+                  "sequence": "",
+                  "idDistributionInitialIndicator": "",
+                  "nonHmoIdCardsIndicator": "",
+                  "idDistributionOngoing": "",
+                  "idDesignCode": "",
+                  "trigger": "",
+                  "stickerIndicator": ""
+                },
+                "exempt": {
+                  "type": "",
+                  "typeEffectiveDate": "9999-12-31",
+                  "typeTermDate": "9999-12-31"
+                },
+                "location": {
+                  "lobCode": ""
+                },
+                "process": {
+                  "groupProcessCode": "",
+                  "groupTapeEnrollment": "",
+                  "batchStream": ""
+                },
+                "rateMethod": {
+                  "code": "",
+                  "codeEffectiveDate": "9999-12-31"
+                },
+                "rep": [
+                  {
+                    "adminName": ""
+                  }
+                ],
+                "nationalEligibility": {
+                  "primaryNetwork": "",
+                  "primaryNetworkEffectiveDate": "9999-12-31",
+                  "primaryNetworkTermDate": "9999-12-31"
+                },
+                "other": {
+                  "name": "",
+                  "customerGroupId": "",
+                  "status": "",
+                  "originalEffectiveDate": "9999-12-31",
+                  "standardIndustryClassification": "",
+                  "addProcessDate": "9999-12-31",
+                  "paidToDate": "9999-12-31",
+                  "groupId": "",
+                  "reinstateEffectiveDate": "9999-12-31",
+                  "reinstateProcessDate": "9999-12-31",
+                  "cancelEffectiveDate": "9999-12-31",
+                  "cancelProcessDate": "9999-12-31",
+                  "cancelReason": "",
+                  "processOrPhone": "",
+                  "oadPairedGroup": "",
+                  "oadPairedGroupEffectiveDate": "9999-12-31",
+                  "oadPairedGroupEndDate": "9999-12-31",
+                  "promptPayIndicator": "",
+                  "promptPayEffectiveDate": "9999-12-31",
+                  "companyCode": "",
+                  "companyCodeEffectiveDate": "9999-12-31",
+                  "locationStateCode": "",
+                  "locationStateCodeEffectiveDate": "9999-12-31",
+                  "preferredDrugCodeEffectiveDate": "9999-12-31",
+                  "eligibilityCodeEffectiveDate": "9999-12-31",
+                  "billingChargeCode": "",
+                  "contactName": "",
+                  "address1": "",
+                  "address2": "",
+                  "phone": "",
+                  "ext": "",
+                  "city": "",
+                  "state": "",
+                  "zip": "",
+                  "healthWellnessIndicator": "",
+                  "privateExchangeIndicator": "",
+                  "attestationIndicator": "",
+                  "autoPicIndicatorForVivity": "",
+                  "hsaFamilySingleIndicator": "",
+                  "groupLetterOptOut": "",
+                  "case": "",
+                  "medicareRate": "",
+                  "billEnityName": "",
+                  "effectiveDate": "9999-12-31",
+                  "termDate": "9999-12-31",
+                  "hallmarkGiftCardBillIndicator": "",
+                  "hcbcLastProcessDate": "9999-12-31",
+                  "addressType": ""
+                },
+                "otherNonStandard": {
+                  "ecceccVendor": "",
+                  "agedBlindAndDisabled": "",
+                  "groupCategoryType": "",
+                  "letterSuppression": "",
+                  "billingPairedGroups": "",
+                  "transitionIndicator": "",
+                  "pediatricHealthPlan": "",
+                  "combinedBillingIndicator": "",
+                  "maxAge": "",
+                  "classificationCode": "",
+                  "multipleCode": "",
+                  "differentialAmount": "",
+                  "roundingCode": "",
+                  "salaryFrequencyClassLocGiovrIndGiovDateCalculationType": "",
+                  "codeId": "",
+                  "birthDateCompMonth": "",
+                  "spsCutback": "",
+                  "roundingAfterCutback": "",
+                  "age": "",
+                  "pctPercent": "",
+                  "fromBaseCode": "",
+                  "occuranceCode": "",
+                  "minAmount": "",
+                  "vendorIndicator": "",
+                  "effectiveDate": "9999-12-31",
+                  "endDate": "9999-12-31",
+                  "vendorData1": "",
+                  "vendorData2": "",
+                  "vendorData3": "",
+                  "vendorData4": "",
+                  "note": "",
+                  "userId": "",
+                  "pcpChanges": "",
+                  "pcpAddressChange": "",
+                  "aidCategoryChange": "",
+                  "contractCodeChanges": "",
+                  "groupToGroupTransfer": "",
+                  "reEnrolled": "",
+                  "reinstated": "",
+                  "gapInCoverageForNmk": "",
+                  "jkContractSubscriber": "",
+                  "coccLetterSuppression": "",
+                  "conversionLetterSuppression": "",
+                  "terminationLetterSuppression": "",
+                  "lastProcessDate": "9999-12-31",
+                  "countyCodeChanges": ""
+                },
+                "adminName": "",
+                "rdsGroupAttestationIndicator": "",
+                "claim": {
+                  "route": "",
+                  "graceDays": "",
+                  "claimGraceDays": ""
+                },
+                "itsHome": {
+                  "indicator": "",
+                  "effectiveDate": "9999-12-31",
+                  "prefix": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "accountBillGroups": [
+      {
+        "ids": [
+          {
+            "system": "CM",
+            "name": "billGroupId",
+            "value": "CMBG001"
+          },
+          {
+            "system": "CM",
+            "name": "globalCustomerId",
+            "value": "CMBG001"
+          },
+          {
+            "system": "CM",
+            "name": "billGroupId",
+            "value": ""
+          }
+        ],
+        "demographic": {
+          "organizationName": {
+            "name": "BILL-000058",
+            "dbaName": ""
+          },
+          "contact": {
+            "persons": [
+              {
+                "id": 123456789,
+                "lastName": "Adams",
+                "firstName": "Henry",
+                "middleName": "",
+                "purpose": "Managing Agent",
+                "organization": "",
+                "title": "Owner"
+              }
+            ],
+            "addresses": [
+              {
+                "id": 123456789,
+                "addressSourceId": "Billing",
+                "attn": "",
+                "line1": "1155 Elm Street",
+                "line2": "",
+                "city": "Manchester",
+                "countyName": "",
+                "stateCode": "NH",
+                "zipCode": "3101",
+                "zipCodePlus": "",
+                "foreignCountryFlg": "",
+                "foreignPostalCode": "",
+                "countryCode": "",
+                "countryName": "",
+                "useType": "",
+                "validationFlag": "",
+                "coordinate": {
+                  "longitude": "",
+                  "latitude": ""
+                },
+                "effectiveDtm": "2020-01-01",
+                "terminateDtm": "9999-12-31"
+              }
+            ],
+            "phones": [
+              {
+                "id": 123456789,
+                "useType": "Billing",
+                "type": "Cell",
+                "value": "6035410001",
+                "authorizeTxtFlg": "",
+                "effectiveDtm": "2020-01-01"
+              }
+            ],
+            "emails": [
+              {
+                "id": 123456789,
+                "useType": "Billing",
+                "value": "testlegato@anthem.com",
+                "effectiveDtm": "2020-01-01"
+              }
+            ]
+          }
+        },
+        "status": {
+          "timeline": {
+            "status": "A",
+            "effectiveStartDate": "2020-01-01"
+          },
+          "reasons": [
+            {
+              "code": "",
+              "description": ""
+            }
+          ]
+        },
+        "subBillGroups": [
+          {
+            "billGroupId": "0",
+            "customerID": "0",
+            "caseId": "",
+            "groupSuffixId": "",
+            "billArrangements": [
+              {
+                "customerId": "",
+                "productCategory": "",
+                "productId": "",
+                "employeeType": "",
+                "employmentClass": ""
+              }
+            ]
+          }
+        ],
+        "billConfig": {
+          "billOrSelfBillCode": "premium bill",
+          "billInvoice": {
+            "billCycle": "Monthly",
+            "billRouteType": "X",
+            "customerClass": "C",
+            "division": "Division",
+            "invoiceFormat": "F"
+          },
+          "billArrangements": [
+            {
+              "customerId": "0",
+              "productCategory": "",
+              "productId": "",
+              "employeeType": "",
+              "employmentClass": ""
+            }
+          ],
+          "invoiceSortingOptions": [
+            {
+              "sequence": 1,
+              "field": "payrollLocation",
+              "order": "ASC",
+              "customLists": [
+                {
+                  "value": "LOC1"
+                }
+              ]
+            },
+            {
+              "field": "gender",
+              "customLists": [
+                {
+                  "value": "M"
+                },
+                {
+                  "value": "F"
+                }
+              ],
+              "sequence": 2,
+              "order": "desc"
+            }
+          ],
+          "billLevelParameters": [
+            {
+              "sourceSystem": "",
+              "billLevel1": "",
+              "billLevel2": "",
+              "billLevel3": "",
+              "billLevel4": "",
+              "billGroupId": "",
+              "effectiveDate": "2019-01-01"
+            }
+          ],
+          "billDates": {
+            "billFromDate": "2020-01-01",
+            "billToDate": "9999-12-31"
+          },
+          "legacy": {
+            "frequency": {
+              "cycleCode": "",
+              "billFreq": "",
+              "freeMonths": "",
+              "quarterlyCycle": ""
+            },
+            "delinquency": {
+              "graceDays": "10",
+              "minAmnt": "10",
+              "tolerancePercent": "50",
+              "toleranceAmt": "100.00",
+              "payType": "",
+              "delinquencyLetterCode": ""
+            },
+            "format": {
+              "invoiceFormat": "",
+              "sortingCode": "",
+              "billCopies": "1",
+              "billRouteType": "",
+              "invoiceType": "Premium/List",
+              "billComponentsCode": "",
+              "suppressVolumeOnBill": "",
+              "hcidForBillPrintIndicator": ""
+            },
+            "otherConfig": {
+              "invoiceHold": "",
+              "spsCutback": "",
+              "roundingAfterCutback": "",
+              "occuranceCode": "",
+              "refund": "",
+              "washoutCode": "16",
+              "entityType": "23",
+              "chgsAfterCncFlag": "",
+              "createAccounting": "",
+              "hsaBankOptionCode": "",
+              "holdBillRerateIndicator": "",
+              "billFromDay": 1,
+              "zeroDollarStartDate": "9999-12-31",
+              "sbNonComputerHousedIndicator": ""
+            }
+          }
+        }
+      }
+    ]
+  }
+}

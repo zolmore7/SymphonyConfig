@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity.Symphony Sales</members>
+        <name>BusinessProcess</name>
+    </types>  
+    <types>
+        <members>Account.Symphony_Accounts</members>
+        <members>Contact.Symphony_Brokers</members>
+        <members>Contact.Symphony_Contacts</members>
+        <members>Opportunity.Symphony_Opportunities</members>
+        <members>Quote.Symphony_Quotes</members>
+        <members>Task.Symphony_Tasks</members>
+        <name>ListView</name>
+    </types>  
+    <types>
+        <members>Symphony_Quote_Path</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>AnthemLogoSmall4</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>symphonyjQueryPackage</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Symphony_Activities</members>
+        <members>Symphony_Quotes</members>
+        <name>ReportType</name>
+    </types>     
+    <types>
+        <members>Account-Symphony Account</members>
+        <members>Contact-Symphony Contact</members>
+        <members>Contact-Symphony Broker</members>
+		<members>Product2-Product Layout</members>
+        <members>Opportunity-Opportunity Layout - Symphony - New Business</members>
+        <members>Quote-Symphony Quote</members>
+        <members>Sym_Soldcase__c-Soldcase Layout</members>
+        <members>Sym_Census__c-Census Layout</members>
+        <members>Sym_Summary_of_Benefits__c-Prior EOB Layout</members>
+        <members>Sym_Billing_Admin_Preferences__c-Billing and Payment Preferences Layout</members>
+        <members>Sym_Billing_Structure__c-Billing Structure Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Contact.symphony_Broker</members>
+        <members>Contact.Symphony_Contact</members>
+        <members>Account.Symphony_Account</members>
+        <members>Opportunity.Symphony_Opportunity</members>
+        <members>Quote.Symphony_Quote</members>
+        <members>Task.Quote_Task_Symphony</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>SymphonyReports\QuoteStatusSummary</members>
+        <members>SymphonyReports\Quotes_Needing_Attention_Gwo</members>
+        <members>SymphonyReports\Quote_Volume_6uw</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>SymphonyDashboards\wosRsGJMnERsHbyBlVCjQCpOOJBcCx</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Sym_Billing_Admin_Preferences__c</members>
+        <members>Sym_Billing_Structure__c</members>
+        <members>Sym_Fine_Tune_Recommendation__c</members>
+        <members>Sym_Soldcase__c</members>
+        <name>CustomTab</name>
+    </types>
+    <version>46.0</version>
+</Package>

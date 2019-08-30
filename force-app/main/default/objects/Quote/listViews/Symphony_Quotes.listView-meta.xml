@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Symphony_Quotes</fullName>
+    <columns>QUOTE.NAME</columns>
+    <columns>QUOTE.SUBTOTAL</columns>
+    <columns>QUOTE.TOTALPRICE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>QUOTE.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Quote.Symphony_Quote</value>
+    </filters>
+    <label>Symphony Quotes</label>
+</ListView>

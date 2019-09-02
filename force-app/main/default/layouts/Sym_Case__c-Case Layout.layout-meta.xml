@@ -47,15 +47,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_billing_city__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>sym_billing_postal_code__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>sym_sic__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Sym_Quote__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -74,15 +74,11 @@
                 <behavior>Edit</behavior>
                 <field>Sym_Broker_First_Name__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Broker_Contact_ID__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Brokerage_Account_Name__c</field>
+                <field>Sym_Broker_Contact_ID__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -150,10 +146,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>sym_SOB_id__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Current_Coinsurance_INN__c</field>
             </layoutItems>
             <layoutItems>
@@ -174,14 +166,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Current_premium_PMPM_Family_INN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Current_premium_PMPM_Individual_IN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Current_Rx_Tier_One_Coinsurance__c</field>
             </layoutItems>
             <layoutItems>
@@ -196,56 +180,8 @@
                 <behavior>Edit</behavior>
                 <field>Sym_Current_Rx_Tier_Four_Coinsurance__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Deductible_Family_INN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Deductible_Individual_INN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_INN_Coinsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_OOP_Max_Family_INN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_OOP_Max_Individual_INN__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_One_Copay__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_Two_Copay__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_Three_Copay__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_Four_Copay__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Total_Average_Premium__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Total_Deductible_Family_INN__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Avg_Prem_PMPM__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Sym_Current_Coinsurance_OON__c</field>
@@ -268,14 +204,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Current_premium_PMPM_Family_OON__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Current_premium_PMPM_Individual_OON__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Current_Rx_Tier_One_Copay__c</field>
             </layoutItems>
             <layoutItems>
@@ -289,50 +217,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Sym_Current_Rx_Tier_Four_Copay__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Deductible_Family_OON__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Deductible_Individual_OON__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_OON_Coinsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_OOP_Max_Family_OON__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_OOP_Max_Individual_OON__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_One_Coinsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_Two_Coinsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_Three_Coinsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Target_Rx_Tier_Four_Coinsurance__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Total_OOP_Max_Individual_in_Network__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Total_Deductible_Family_OON__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -349,31 +233,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Average_age_of_Employees__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Current_As_Of__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Employee_Active__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Employee_Age_Ranges__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Employee_Cobra__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Employee_Spouse_PMPM__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Employee_total__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -405,15 +265,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>sym_outputTier__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Participation_Rate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Total_Dependents_Org__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Total_Subscriber_Count_Org__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -423,31 +279,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Contract_Type__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Date_of_Birth__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Employee_Children_PMPM__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>sym_employee_retiree__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Employee_with_dependents__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Gender__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>sym_inputTier__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -477,26 +313,14 @@
                 <behavior>Edit</behavior>
                 <field>Sym_Number_over_60__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>State__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Total_Average_Age__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Total_Subscriber_Count_Org__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Information</label>
+        <label>Billing Prefs</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -530,10 +354,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>OwnerId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Account_Number__c</field>
             </layoutItems>
             <layoutItems>
@@ -557,6 +377,15 @@
                 <field>Sym_Case_Status__c</field>
             </layoutItems>
         </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Information</label>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
@@ -567,105 +396,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Family_In_Network_Deductible_Min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Fam_Out_Network_Deductible_Min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Family_Max_Oo_in_ntwrk_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Family_Max_OoP_ot_ntwrk_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_HSA_Medical_Plan__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Indvdl_In_Ntwk_Deduct_Min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Invdl_Out_Ntwk_Dtbl_Min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Individual_Max_OoP_in_ntwrk__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Indvdl_Max_OoP_ot_ntwrk_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_In_Network_Coinsurance_Minimum__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Out_Network_Coinsurance_Minimum__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_1_coinsur_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_1_copay_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_2_coinsur_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_2_copay_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_3_coinsur_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_3_copay_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_4_Coinsur_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_4_copay_min__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_POS_Medical_Plan__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Prescription_Copay_minimum__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Prescription_Coinsurance_Minimum__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Prioritize_Medical_Plans__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Family_In_Network_Deductible_Max__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Fam_Out_Network_Deductible_Max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -673,31 +404,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Family_Max_OoP_ot_ntwrk_max__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_HMO_Medical_Plan__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Indivdl_Ddtbl_InNet_Max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Indvl_Out_Network_Ddct_Max__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Indvdl_Max_OoP_in_ntwrk_max__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Indvdl_Max_OoP_ot_ntwrk_max__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Out_Network_Coinsurance_Maximum__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -709,15 +420,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_1_copay_max2__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Sym_Pharmacy_Tier_2_coinsur_max__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_2_copay_max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -725,11 +428,45 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_3_copay_max__c</field>
+                <field>Sym_Pharmacy_Tier_4_coinsur_max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sym_Pharmacy_Tier_4_coinsur_max__c</field>
+                <field>Sym_HMO_Medical_Plan__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Fam_Out_Network_Deductible_Max__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Family_Max_OoP_ot_ntwrk_max__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Indvl_Out_Network_Ddct_Max__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Indvdl_Max_OoP_ot_ntwrk_max__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Out_Network_Coinsurance_Maximum__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Pharmacy_Tier_1_copay_max2__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Pharmacy_Tier_2_copay_max__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sym_Pharmacy_Tier_3_copay_max__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -738,18 +475,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Sym_PPO_Medical_Plan__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Prescription_Coinsurance_Maximum__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Prescription_Copay_maximum__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Sym_Recommendation_Strength__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
